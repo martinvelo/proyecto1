@@ -1,0 +1,90 @@
+*´{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../img/PORTADA1.jpg);
+    background-size: cover;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    
+}
+
+ul{
+    min-width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+li{
+    padding: 40px;
+    align-items: end;
+    ;color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+nav{
+    margin-right: 0%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+.logo :hover {
+transform: scale(1.2);    
+}
+
+.tarjeta{
+    width: 450px;
+    height: 350px;
+    justify-content: center;
+    background-color: rgb(226, 228, 227);
+    margin-left: 50px;
+
+    
+}  
+.barralat{
+    margin-left: 450px;
+}
+.titulo{
+    text-align: center;
+}
+.cuerpo{
+    text-align: center;
+    
+}
+.general{
+    display: flex;
+}
+.lateral{
+    width: 300px;
+    height: 700px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    ;
+}
+.peinado{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.botonturnos{
+    position: fixed 1000px
+
+}
+
+footer{
+ background-color: black;
+}
+.instragram{
+    position: absolute 700px;
+}
