@@ -7,7 +7,7 @@ body {
     margin: 0 ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(../img/PORTADA1.jpg);
-    background-size: cover;
+    background-size: 1620px 1380px;
 }
 
 #header{
@@ -18,47 +18,51 @@ body {
 
 ul{
     min-width: 100%;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(27, 27, 27);
     display: flex;
     align-items: center;
     list-style: none;
+    margin-top: 0px;
+    
 }
 li{
     padding: 40px;
     align-items: end;
     ;color: white;
-    font-family: 'Times New Roman', Times, serif;
     display: flex;
+
 }
 nav{
     margin-right: 0%;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    
+    margin-top: 0px;
 }
 .logo :hover {
 transform: scale(1.2);    
 }
 
 .tarjeta{
-    width: 450px;
+    width: 500px;
     height: 350px;
     justify-content: center;
     background-color: rgb(226, 228, 227);
     margin-left: 50px;
+    box-shadow: 4px 4px 10px
 
     
 }  
 .barralat{
-    margin-left: 450px;
+    margin-left: 550px;
+    margin-bottom: 200px;
 }
 .titulo{
     text-align: center;
 }
 .cuerpo{
     text-align: center;
-    
+    width: 500px;
 }
 .general{
     display: flex;
@@ -69,8 +73,6 @@ transform: scale(1.2);
     background-color: black;
     text-align: center;
     padding: 5px;
-    border-radius: 50%;
-    ;
 }
 .peinado{
     text-align: center;
@@ -79,12 +81,14 @@ transform: scale(1.2);
 }
 .botonturnos{
     position: fixed 1000px
-
+}
+.lateral  img {
+    border-radius: 50%;
+    
 }
 
 footer{
- background-color: black;
+background-color: rgb(0, 0, 0);
 }
-.instragram{
-    position: absolute 700px;
-}
+
+.instagram{}
